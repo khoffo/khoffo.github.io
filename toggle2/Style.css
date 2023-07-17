@@ -1,0 +1,133 @@
+body{
+  background-color: hsl(240, 78%, 98%);
+  background-image: url(bg-bottom.svg), url(bg-top.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: 0% 100%, 100% 0%;
+}
+.hi{
+  display: flex;
+  justify-content: center;
+  color: gray
+}
+.container{
+  /* background-color: blue; */
+  width: 1000px;
+  height: 500px;
+  margin-left: 150px;
+  display: flex;
+  margin-top: 4rem;
+}
+
+nav{
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1.9rem;
+  align-items: center;
+}
+
+.toggle-btn {
+  background-color: hsl(240, 78%, 98%);
+  cursor: pointer;
+  position: relative;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 5%;
+  border-radius: 50%;
+  transition: left 0.3s ease-in-out;
+}
+
+.toggle-area{
+  border: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 3.8rem;
+  height: 2.3rem;
+  border-radius: 25px;
+  background: hsl(237, 63%, 64%);
+}
+
+.slide-right {
+  left: 20px;
+}
+
+
+.toggle-button{
+  display: flex;
+  justify-content: center;
+}
+.first-div{
+  background-color: hsl(240, 78%, 98%);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: -1px -3px 41px -20px rgba(0,0,0,0.85);
+  text-align: center;
+}
+.first-div h3{
+  color: gray;
+}
+.first-div h1{
+  font-size: 3rem;
+}
+.first-div button{
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 18rem;
+  color: hsl(240, 74%, 74%);
+  border-radius: 5px;
+}
+
+.second-div{
+  background-color: hsl(240, 70%, 65%);
+  width: 400px;
+  height: 530px;
+  margin-top: -13px;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+.second-div h3{
+color: hsl(240, 78%, 98%);
+}
+.dollar{
+  font-size: 2rem;
+  /* align-items: center; */
+}
+.second-div button{
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 18rem;
+  color:  hsl(240, 8%, 83%);
+  border-radius: 5px;
+}
+.second-div h1{
+  font-size: 3rem;
+  color:  hsl(240, 78%, 98%);
+}
+.dollar2{
+  font-size: 2rem;
+  color:  hsl(240, 78%, 98%);
+}
+.third-div{
+  background-color:hsl(240, 78%, 98%);
+  width: 400px;
+  height: 500px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: -1px -3px 41px -20px rgba(0,0,0,0.85);
+  text-align: center;
+}
+.third-div h3{
+  color: gray;
+}
+.third-div h1{
+  font-size: 3rem;
+}
+.third-div button{
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 18rem;
+  color: hsl(240, 74%, 74%);
+  border-radius: 5px;
+}
